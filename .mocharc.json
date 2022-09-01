@@ -1,0 +1,15 @@
+{
+  "extension": [
+    "jsx"
+  ],
+  "spec": [
+    "src/**/*.test.jsx"
+  ],
+  "require": [
+    "global-jsdom/register"
+  ],
+  "node-option": [
+    "no-warnings",
+    "loader=@esbuild-kit/esm-loader"
+  ]
+}
