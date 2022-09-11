@@ -5,6 +5,10 @@
     "tdd": "npm test -- -R min -w -p",
     "cover": "c8 -r html -r text -r lcov npm test"
   },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "devDependencies": {
     "@esbuild-kit/esm-loader": "^2.4.2",
     "@testing-library/react": "^13.4.0",
