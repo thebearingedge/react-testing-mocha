@@ -1,17 +1,10 @@
 {
-  "name": "react-testing-mocha",
   "type": "module",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "mocha",
     "tdd": "npm test -- -R min -w -p",
     "cover": "c8 -r html -r text -r lcov npm test"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@esbuild-kit/esm-loader": "^2.4.2",
     "@testing-library/react": "^13.4.0",
